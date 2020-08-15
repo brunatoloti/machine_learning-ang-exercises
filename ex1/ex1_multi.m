@@ -184,7 +184,7 @@ fprintf('\n');
 % Estimate the price of a 1650 sq-ft, 3 br house
 % ====================== YOUR CODE HERE ======================
 price = 0; % You should change this
-sb = [1; 1650; 3]; %remember that mu and sigma are vectors 1x2
+sb = [1; 1650; 3]; %remember that in normal equations, we don’t need to scale our feature
 price = theta'*sb;  %using the theta with better alpha
 
 % ============================================================
