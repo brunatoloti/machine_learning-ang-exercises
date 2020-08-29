@@ -1,1 +1,1 @@
-# machine_learning-ang-exercises
+# ml-ang-exercises
